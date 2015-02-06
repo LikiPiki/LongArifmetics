@@ -57,12 +57,11 @@ int main () {
     int n;
     scanf("%d", &n);
     intToArray(n, mas);
-    printArray(mas, l);
     int bas;
     scanf("%d", &bas);
     sumArray(bas, mas, l);
-    printArray(mas, l);
     reverse(mas, l);
+    puts("Rezulte:");
     printArray(mas, l);
     
 }
